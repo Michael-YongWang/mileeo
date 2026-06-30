@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# 归档与未用素材
+archive/
+reference/
+output/
+
+# 原始大图（构建源，仅本地保留）
+assets/*.jpg
+assets/*.jpeg
+assets/*.JPG
+assets/*.JPEG
+
+# Playwright debug
+.playwright-mcp/
+mobile-hero*.png
+mobile-full*.png
+desktop-hero*.png
+*.tmp.png
+
+# 工具产物
+node_modules/
+.cache/
+.parcel-cache/
+.vite/
+dist/
+
+# 大型源文件
+*.zip
+*.key
+*.pptx
+*.pdf
+*.mp4
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
